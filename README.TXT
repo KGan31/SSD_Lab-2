@@ -22,5 +22,5 @@ Initally load all schema and data from the given Assignment pdf.
 5) q5.sql: Execute q5.sql and then execute command 
     CALL SendWatchTimeReportForAll();
 
-    Assumption: The only difference in q5 and q4 is that in q4 we only print watch history for subscribers who have non empty watch history. Whereas in q5 we print history for all subscribers irrespective of whether they have watch history or not. In case they don't then "Subscriber <sub_id> has no watch history is printed.
+    Assumption: The only difference in q5 and q4 is that in q4 we only print watch history for subscribers who have non empty watch history. Whereas in q5 we print history for all subscribers irrespective of whether they have watch history or not. In case they don't then "Subscriber <sub_id> has no watch history" is printed.
 
